@@ -1,0 +1,129 @@
+{
+  "companyInfo": {
+    "companyName": "Wilderman, Davies and Johnston",
+    "companyMotto": "extensible monetize deliverables",
+    "companyEst": "2017-07-03T04:30:11.858Z"
+  },
+  "employees": [
+    {
+      "id": "1d1e8d8f-a3ac-4235-ac22-682a2758e679",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/airskylar/128.jpg",
+      "firstName": "Sophie",
+      "lastName": "Parker",
+      "jobTitle": "Lead Applications Coordinator",
+      "age": 59,
+      "bio": "Cum delectus laborum pariatur sint voluptas corrupti molestias ut autem. Velit qui animi saepe sed. Aut aut ut modi. Est omnis deserunt veniam ea eveniet et iure vel.",
+      "dateJoined": "2017-02-21T12:06:02.162Z"
+    },
+    {
+      "id": "7c2069c0-be52-4fc5-8cc4-255c53465763",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/ManikRathee/128.jpg",
+      "firstName": "Isaac",
+      "lastName": "Becker",
+      "jobTitle": "Legacy Applications Coordinator",
+      "age": 19,
+      "bio": "Perferendis assumenda adipisci explicabo blanditiis fuga est sequi sint dolore. Veniam aut iste quia illum vitae. Quos error rerum eligendi qui. Quia incidunt aspernatur nemo voluptas et.",
+      "dateJoined": "2018-07-07T10:56:10.042Z"
+    },
+    {
+      "id": "59833b4f-b4cd-4b58-961e-a0dd5006feee",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/chadami/128.jpg",
+      "firstName": "Stella",
+      "lastName": "Williamson",
+      "jobTitle": "Internal Web Manager",
+      "age": 67,
+      "bio": "Explicabo quo dolorum officiis ut occaecati. Voluptate veniam assumenda. Eos non rerum quis hic doloribus deleniti debitis. Accusamus sed incidunt molestias dolores. Saepe ut aliquam non quaerat ea ut expedita in.",
+      "dateJoined": "2018-10-08T08:17:17.811Z"
+    },
+    {
+      "id": "5589c86e-12d0-4d70-b87a-b6a43b02e745",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/unterdreht/128.jpg",
+      "firstName": "Stephanie",
+      "lastName": "Rees",
+      "jobTitle": "Lead Applications Supervisor",
+      "age": 22,
+      "bio": "Non eius sed excepturi quia architecto rem voluptatem culpa velit. Odit asperiores dolores ab eius enim aut soluta. Omnis animi dicta. Magnam est adipisci. Nisi iusto aut.",
+      "dateJoined": "2017-07-17T08:24:24.633Z"
+    },
+    {
+      "id": "8a58d09e-49b4-4c0b-917e-c00b559303b4",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/darcystonge/128.jpg",
+      "firstName": "Liam",
+      "lastName": "Wright",
+      "jobTitle": "Customer Implementation Coordinator",
+      "age": 27,
+      "bio": "Qui incidunt sit voluptatem. Architecto ut alias cupiditate et. Nemo ipsum odio pariatur similique quis.",
+      "dateJoined": "2019-03-17T23:12:48.688Z"
+    },
+    {
+      "id": "d9a95b59-2078-491b-b793-c460996e5d22",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/cemshid/128.jpg",
+      "firstName": "Andrew",
+      "lastName": "Emmerich",
+      "jobTitle": "Central Tactics Engineer",
+      "age": 18,
+      "bio": "Repellendus porro minima ut ut aliquid cum laudantium ea facilis. At officia eum quis aut ipsum consectetur non aut repudiandae. Facere iure facilis.",
+      "dateJoined": "2016-11-19T18:04:53.860Z"
+    },
+    {
+      "id": "7c493ebf-ece2-4e56-ad5e-acbfa41f4c7a",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/xamorep/128.jpg",
+      "firstName": "William",
+      "lastName": "Kulas",
+      "jobTitle": "Internal Infrastructure Coordinator",
+      "age": 41,
+      "bio": "In dolor ea sunt qui reiciendis fugit. Ratione adipisci voluptatem deserunt fugit a corporis unde ipsum. Tenetur recusandae atque et in quod. Libero fugiat doloribus quaerat ut nemo quidem rem iste facere. Consequuntur esse corporis ut optio et. Non aliquam repellat animi.",
+      "dateJoined": "2013-03-17T18:46:43.140Z"
+    },
+    {
+      "id": "5e8d4a72-6765-4135-865a-f4079b6da26c",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/sachacorazzi/128.jpg",
+      "firstName": "Aidan",
+      "lastName": "Taylor",
+      "jobTitle": "International Creative Executive",
+      "age": 41,
+      "bio": "Et quo architecto molestiae dicta adipisci quos consequatur alias. Deserunt ea ut consequuntur et quasi consequuntur ut ipsam. Sit deleniti asperiores quo maiores officiis omnis iste rem.",
+      "dateJoined": "2017-01-18T05:37:25.719Z"
+    },
+    {
+      "id": "bee7c84a-f2c5-45ba-a496-af865c4ae622",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/kirangopal/128.jpg",
+      "firstName": "Ryan",
+      "lastName": "Parisian",
+      "jobTitle": "International Quality Officer",
+      "age": 39,
+      "bio": "Perspiciatis non a molestias commodi. Unde et voluptate facilis dolorum laboriosam quia labore inventore fuga. Voluptatem est vel officiis repellat. Quaerat et qui quisquam impedit sunt nihil quod dicta. Dolorem omnis ea sint omnis neque maiores laborum fugit explicabo. Corrupti unde consectetur et voluptates dolores itaque illo qui.",
+      "dateJoined": "2018-01-27T07:51:44.590Z"
+    },
+    {
+      "id": "26fb3ea0-d3ef-4012-911e-ffdaa39ae948",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bcrad/128.jpg",
+      "firstName": "Hugo",
+      "lastName": "O'neill",
+      "jobTitle": "Senior Research Representative",
+      "age": 46,
+      "bio": "Rem recusandae reprehenderit. Impedit omnis a. Eligendi nulla non. Et alias vel.",
+      "dateJoined": "2019-06-22T00:25:31.993Z"
+    },
+    {
+      "id": "b633de48-4dd2-431c-81e4-54151dbfde38",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/coderdiaz/128.jpg",
+      "firstName": "Emma",
+      "lastName": "Walsh",
+      "jobTitle": "Forward Factors Producer",
+      "age": 17,
+      "bio": "Ullam aut molestiae cum nam dolor illum. Deleniti consequatur aut deleniti et autem nulla dolores dolorem incidunt. Nihil hic non in illum numquam. Hic iste voluptatem. Corporis quo voluptas nobis vel. Aut nihil ut repellat tenetur quae.",
+      "dateJoined": "2013-12-17T23:20:54.367Z"
+    },
+    {
+      "id": "1f9f4852-e7a6-4f70-aa25-5233f2c46480",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/jeremery/128.jpg",
+      "firstName": "Lachlan",
+      "lastName": "Daniel",
+      "jobTitle": "Central Implementation Developer",
+      "age": 46,
+      "bio": "Autem consequatur exercitationem. Ipsum in ducimus ad earum nobis iure libero. Necessitatibus nulla magni quas voluptas earum dolor qui sapiente. Veniam et aut officia consequatur labore consectetur. Libero esse optio sed necessitatibus numquam ullam illo aut eaque.",
+      "dateJoined": "2014-01-17T15:54:32.965Z"
+    }
+  ]
+}
