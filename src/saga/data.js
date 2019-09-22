@@ -7,7 +7,6 @@ function* fetchData() {
     const response = yield fetch("sample-data.json");
     if (!response.ok) throw new Error("Fetch data failed");
     const json = yield response.json();
-    console.log("Saga Json", json);
     yield put(actions.receiveData(json));
   } catch (error) {
     yield put(actions.requestDataFailed());
