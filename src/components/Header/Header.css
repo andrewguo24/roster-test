@@ -1,0 +1,13 @@
+.header-container {
+  margin-top: 0;
+  background-color: #dcdcdcdc;
+  border-bottom: 2px solid grey;
+  padding: 20px;
+}
+
+.sub-header-wrapper {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import Header from "../components/Header";
-import MainBody from "../components/MainBody";
+import Header from "../components/Header/Header";
+import MainBody from "../components/MainBody/MainBody";
 import * as actionCreators from "../actions";
 import "./App.css";
 
@@ -16,7 +16,7 @@ class App extends React.Component {
     console.log("container employees", employees);
     return (
       <div>
-        <Header />
+        <Header companyInfo={companyInfo} />
         <MainBody />
       </div>
     );
