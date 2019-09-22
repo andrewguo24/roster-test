@@ -1,16 +1,16 @@
 import React from "react";
 import "./EmployeeCard.css";
 
-const EmployeeCard = props => (
-  <div className="card-box">
+const EmployeeCard = ({ employee, handleOpenPopup }) => (
+  <div className="card-box" onClick={() => handleOpenPopup(employee)}>
     <div className="avatar">
-      <img src={props.employee.avatar} alt="avatar" height="150" />
+      <img src={employee.avatar} alt="avatar" height="150" />
     </div>
     <div className="employee-info">
-      <p className="fullname">
-        {props.employee.firstName} {props.employee.lastName}
+      <p className="name">
+        {employee.firstName} {employee.lastName}
       </p>
-      <p className="bio">{props.employee.bio}</p>
+      <p className="bio">{employee.bio}</p>
     </div>
   </div>
 );

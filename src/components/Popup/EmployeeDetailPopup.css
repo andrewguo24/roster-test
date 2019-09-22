@@ -1,0 +1,73 @@
+.popup-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.close-icon {
+  position: relative;
+  font-size: 35px;
+  font-weight: bold;
+  left: 71vw;
+  top: 15vh;
+  z-index: 101;
+  cursor: pointer;
+}
+
+.details-container {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid grey;
+  z-index: 101;
+  width: 40vw;
+  left: 30vw;
+  height: 60vh;
+  top: 15vh;
+  display: flex;
+}
+
+.details-left-box {
+  flex: 3;
+}
+
+.job-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.age {
+  margin-bottom: 10px;
+}
+
+.details-right-box {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.details-right-box .name {
+  flex: 3;
+  height: 120px;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid grey;
+  width: 70%;
+  vertical-align: bottom;
+}
+
+.details-right-box .name .name-text {
+  margin-bottom: 0;
+  vertical-align: bottom;
+}
+
+.details-right-box .bio {
+  flex: 7;
+  margin-top: 20px;
+  font-size: 20px;
+}

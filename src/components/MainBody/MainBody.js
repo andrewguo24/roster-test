@@ -3,13 +3,17 @@ import MainBodyHeader from "./MainBodyHeader";
 import EmployeeCard from "./EmployeeCard";
 import "./MainBody.css";
 
-const MainBody = props => (
+const MainBody = ({ employees, handleOpenPopup }) => (
   <div className="main-body-container">
     <MainBodyHeader />
     <div className="cards-container">
-      {props.employees &&
-        props.employees.map(employee => (
-          <EmployeeCard key={employee.id} employee={employee} />
+      {employees &&
+        employees.map(employee => (
+          <EmployeeCard
+            key={employee.id}
+            employee={employee}
+            handleOpenPopup={handleOpenPopup}
+          />
         ))}
     </div>
   </div>

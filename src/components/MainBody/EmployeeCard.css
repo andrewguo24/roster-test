@@ -4,6 +4,7 @@
   border: 2px solid grey;
   flex-direction: row;
   height: 150px;
+  cursor: pointer;
 }
 
 .avatar {
