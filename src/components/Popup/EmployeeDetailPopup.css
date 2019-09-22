@@ -71,3 +71,134 @@
   margin-top: 20px;
   font-size: 20px;
 }
+
+@media (max-width: 600px) {
+  .close-icon {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    left: 85vw;
+    top: 5vh;
+    z-index: 101;
+    cursor: pointer;
+    color: red;
+  }
+  .details-container {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid grey;
+    z-index: 101;
+    width: 75vw;
+    left: 10vw;
+    height: 70vh;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .details-left-box {
+    flex: 3;
+  }
+
+  .job-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .age {
+    margin-bottom: 5px;
+  }
+
+  .details-right-box {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .details-right-box .name {
+    flex: 1;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  .details-right-box .name .name-text {
+    margin-bottom: 0;
+    vertical-align: bottom;
+  }
+
+  .details-right-box .bio {
+    flex: 7;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+  .close-icon {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    left: 85vw;
+    top: 5vh;
+    z-index: 101;
+    color: red;
+    cursor: pointer;
+  }
+  .details-container {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid grey;
+    z-index: 101;
+    width: 75vw;
+    left: 10vw;
+    height: 60vh;
+    top: 5vh;
+    display: flex;
+  }
+  .details-left-box {
+    flex: 3;
+  }
+
+  .job-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .age {
+    margin-bottom: 5px;
+  }
+
+  .details-right-box {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .details-right-box .name {
+    flex: 3;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    width: 70%;
+    vertical-align: bottom;
+  }
+
+  .details-right-box .name .name-text {
+    margin-bottom: 0;
+    vertical-align: bottom;
+  }
+
+  .details-right-box .bio {
+    flex: 7;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}

@@ -12,7 +12,11 @@ const MainBodyHeader = ({
     <div className="main-body-header-right">
       <div className="sort-box">
         <label className="sort-title">Sort by:</label>
-        <select onChange={e => handleSortChange(e)} value={selectValue}>
+        <select
+          onChange={e => handleSortChange(e)}
+          value={selectValue}
+          className="select"
+        >
           <option value="firstName">First Name</option>
           <option value="age">Age</option>
         </select>

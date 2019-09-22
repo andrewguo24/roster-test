@@ -22,12 +22,12 @@
   padding: 10px;
 }
 
-.name {
-  font-size: 25px;
+.employee-info .name {
+  font-size: 20px;
   font-weight: 700;
 }
 
-.bio {
+.employee-info .bio {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
