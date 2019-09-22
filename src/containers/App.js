@@ -17,7 +17,6 @@ class App extends React.Component {
   };
 
   handleOpenPopup = item => {
-    console.log("item", item);
     this.setState({
       isShowPopup: true,
       selectedEmployee: item
@@ -25,21 +24,18 @@ class App extends React.Component {
   };
 
   handleClosePopup = () => {
-    console.log("close popup");
     this.setState({
       isShowPopup: false
     });
   };
 
   updateSearch = e => {
-    console.log("Update Search", e.target.value);
     this.setState({
       search: e.target.value.substr(0, 20)
     });
   };
 
   handleSortChange = e => {
-    console.log("handleSortChange event", e.target.value);
     const { employees } = this.props;
     this.setState({
       selectValue: e.target.value,
@@ -65,8 +61,6 @@ class App extends React.Component {
   render() {
     const { companyInfo, employees } = this.props;
     const { isShowPopup, selectedEmployee, search, selectValue } = this.state;
-    console.log("container companyInfo", companyInfo);
-    console.log("container employees", employees);
     return (
       <div>
         <Header companyInfo={companyInfo} />

@@ -8,7 +8,6 @@ const initialState = {
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case DATA_RECEIVED:
-      console.log("reducer DATA_RECEIVED");
       return {
         ...state,
         companyInfo: action.payload.companyInfo,

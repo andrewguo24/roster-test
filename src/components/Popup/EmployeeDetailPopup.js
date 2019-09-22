@@ -33,7 +33,7 @@ const EmployeeDetailPopup = ({ handleClosePopup, selectedEmployee }) => (
 
 EmployeeDetailPopup.propTypes = {
   handleClosePopup: PropTypes.func,
-  selectedEmployee: PropTypes.object
+  selectedEmployee: PropTypes.array
 };
 
 export default EmployeeDetailPopup;
