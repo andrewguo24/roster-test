@@ -6,10 +6,12 @@ import "./MainBody.css";
 const MainBody = props => (
   <div className="main-body-container">
     <MainBodyHeader />
-    {props.employees &&
-      props.employees.map(employee => (
-        <EmployeeCard key={employee.id} employee={employee} />
-      ))}
+    <div className="cards-container">
+      {props.employees &&
+        props.employees.map(employee => (
+          <EmployeeCard key={employee.id} employee={employee} />
+        ))}
+    </div>
   </div>
 );
 

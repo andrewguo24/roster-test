@@ -1,0 +1,32 @@
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid grey;
+  flex-direction: row;
+  height: 150px;
+}
+
+.avatar {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.employee-info {
+  flex-grow: 2;
+  flex-basis: 0;
+  padding: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.bio {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 13px;
+}
