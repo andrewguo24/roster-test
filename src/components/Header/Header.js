@@ -6,7 +6,10 @@ const Header = props => (
     <h1>{props.companyInfo.companyName}</h1>
     <div className="sub-header-wrapper">
       <p>{props.companyInfo.companyMotto}</p>
-      <p>{props.companyInfo.companyEst}</p>
+      <p>
+        <label>Since </label>
+        {props.companyInfo.companyEst}
+      </p>
     </div>
   </div>
 );

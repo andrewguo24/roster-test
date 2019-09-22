@@ -1,0 +1,28 @@
+.main-body-header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #d3d3d3d3;
+}
+
+.body-title {
+  font-weight: 200;
+}
+
+.main-body-header-right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sort-box {
+  margin-right: 20px;
+}
+
+.sort-title {
+  font-size: 12px;
+}
+
+.search-title {
+  font-size: 12px;
+}
