@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import Header from "../components/Header/Header";
@@ -96,6 +97,11 @@ const mapDispatchToProps = dispatch => ({
   ...bindActionCreators(actionCreators.requestData()),
   dispatch
 });
+
+App.propTypes = {
+  companyInfo: PropTypes.object,
+  employees: PropTypes.array
+};
 
 export default connect(
   mapStateToProps,

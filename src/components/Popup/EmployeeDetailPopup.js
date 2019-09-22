@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./EmployeeDetailPopup.css";
 
 const EmployeeDetailPopup = ({ handleClosePopup, selectedEmployee }) => (
@@ -29,5 +30,10 @@ const EmployeeDetailPopup = ({ handleClosePopup, selectedEmployee }) => (
     </div>
   </div>
 );
+
+EmployeeDetailPopup.propTypes = {
+  handleClosePopup: PropTypes.func,
+  selectedEmployee: PropTypes.object
+};
 
 export default EmployeeDetailPopup;

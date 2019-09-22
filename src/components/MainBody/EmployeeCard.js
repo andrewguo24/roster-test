@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./EmployeeCard.css";
 
 const EmployeeCard = ({
@@ -23,6 +24,13 @@ const EmployeeCard = ({
       </div>
     </div>
   );
+};
+
+EmployeeCard.propTypes = {
+  employee: PropTypes.object,
+  handleOpenPopup: PropTypes.func,
+  selectedEmployee: PropTypes.array,
+  isShowPopup: PropTypes.bool
 };
 
 export default EmployeeCard;

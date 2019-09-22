@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./Header.css";
 
 const Header = ({ companyInfo }) => {
@@ -34,6 +35,10 @@ const Header = ({ companyInfo }) => {
       </div>
     </div>
   );
+};
+
+Header.propTypes = {
+  companyInfo: PropTypes.object
 };
 
 export default Header;

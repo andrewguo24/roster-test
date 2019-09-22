@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./MainBodyHeader.css";
 
 const MainBodyHeader = ({
@@ -33,5 +34,12 @@ const MainBodyHeader = ({
     </div>
   </div>
 );
+
+MainBodyHeader.propTypes = {
+  search: PropTypes.string,
+  updateSearch: PropTypes.func,
+  handleSortChange: PropTypes.func,
+  selectValue: PropTypes.string
+};
 
 export default MainBodyHeader;

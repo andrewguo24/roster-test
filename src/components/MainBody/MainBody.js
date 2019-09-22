@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import MainBodyHeader from "./MainBodyHeader";
 import EmployeeCard from "./EmployeeCard";
 import "./MainBody.css";
@@ -38,6 +39,17 @@ const MainBody = ({
       </div>
     </div>
   );
+};
+
+MainBody.propTypes = {
+  employees: PropTypes.array,
+  search: PropTypes.string,
+  updateSearch: PropTypes.func,
+  handleOpenPopup: PropTypes.func,
+  selectedEmployee: PropTypes.array,
+  isShowPopup: PropTypes.bool,
+  selectValue: PropTypes.string,
+  handleSortChange: PropTypes.func
 };
 
 export default MainBody;
