@@ -11,6 +11,9 @@ class App extends React.Component {
     this.props.dispatch(actionCreators.requestData());
   }
   render() {
+    const { companyInfo, employees } = this.props;
+    console.log("container companyInfo", companyInfo);
+    console.log("container employees", employees);
     return (
       <div>
         <Header />
@@ -20,7 +23,7 @@ class App extends React.Component {
   }
 }
 
-const mapStateToProps = ({ state }) => state;
+const mapStateToProps = state => state;
 
 const mapDispatchToProps = dispatch => ({
   ...bindActionCreators(actionCreators.requestData()),
