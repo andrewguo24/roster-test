@@ -10,7 +10,9 @@ import "./App.css";
 class App extends React.Component {
   state = {
     isShowPopup: false,
-    selectedEmployee: []
+    selectedEmployee: [],
+    search: "",
+    selectValue: ""
   };
 
   handleOpenPopup = item => {
@@ -28,12 +30,40 @@ class App extends React.Component {
     });
   };
 
+  updateSearch = e => {
+    console.log("Update Search", e.target.value);
+    this.setState({
+      search: e.target.value.substr(0, 20)
+    });
+  };
+
+  handleSortChange = e => {
+    console.log("handleSortChange event", e.target.value);
+    const { employees } = this.props;
+    this.setState({
+      selectValue: e.target.value,
+      employees: this.descendSort(employees, e.target.value)
+    });
+  };
+
+  descendSort = (employees, key) => {
+    return employees.sort((a, b) => {
+      if (a[key] < b[key]) {
+        return -1;
+      }
+      if (a[key] > b[key]) {
+        return 1;
+      }
+      return 0;
+    });
+  };
+
   componentDidMount() {
     this.props.dispatch(actionCreators.requestData());
   }
   render() {
     const { companyInfo, employees } = this.props;
-    const { isShowPopup, selectedEmployee } = this.state;
+    const { isShowPopup, selectedEmployee, search, selectValue } = this.state;
     console.log("container companyInfo", companyInfo);
     console.log("container employees", employees);
     return (
@@ -42,8 +72,12 @@ class App extends React.Component {
         <MainBody
           employees={employees}
           handleOpenPopup={this.handleOpenPopup}
+          updateSearch={this.updateSearch}
+          handleSortChange={this.handleSortChange}
           selectedEmployee={selectedEmployee}
           isShowPopup={isShowPopup}
+          search={search}
+          selectValue={selectValue}
         />
         {isShowPopup && (
           <EmployeeDetailPopup
