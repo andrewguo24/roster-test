@@ -9,17 +9,17 @@
 }
 
 .close-icon {
-  position: relative;
+  position: absolute;
   font-size: 35px;
   font-weight: bold;
   left: 71vw;
-  top: 15vh;
+  top: 10vh;
   z-index: 101;
   cursor: pointer;
 }
 
 .details-container {
-  position: relative;
+  position: absolute;
   background-color: #fff;
   padding: 20px;
   border: 2px solid grey;
@@ -73,18 +73,27 @@
 }
 
 @media (max-width: 600px) {
+  .popup-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+  }
   .close-icon {
-    position: relative;
+    position: absolute;
     font-size: 25px;
     font-weight: bold;
     left: 85vw;
-    top: 5vh;
+    top: 10vh;
     z-index: 101;
     cursor: pointer;
     color: red;
   }
   .details-container {
-    position: relative;
+    position: absolute;
     background-color: #fff;
     padding: 10px;
     border: 2px solid grey;
@@ -92,7 +101,7 @@
     width: 75vw;
     left: 10vw;
     height: 70vh;
-    top: 5vh;
+    top: 15vh;
     display: flex;
     flex-direction: column;
   }
@@ -139,18 +148,27 @@
 }
 
 @media (max-width: 1024px) and (min-width: 600px) {
+  .popup-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+  }
   .close-icon {
-    position: relative;
+    position: absolute;
     font-size: 25px;
     font-weight: bold;
     left: 85vw;
-    top: 5vh;
+    top: 12vh;
     z-index: 101;
     color: red;
     cursor: pointer;
   }
   .details-container {
-    position: relative;
+    position: absolute;
     background-color: #fff;
     padding: 10px;
     border: 2px solid grey;
@@ -158,7 +176,7 @@
     width: 75vw;
     left: 10vw;
     height: 60vh;
-    top: 5vh;
+    top: 15vh;
     display: flex;
   }
   .details-left-box {
