@@ -1,17 +1,39 @@
 import React from "react";
 import "./Header.css";
 
-const Header = props => (
-  <div className="header-container">
-    <h1>{props.companyInfo.companyName}</h1>
-    <div className="sub-header-wrapper">
-      <p>{props.companyInfo.companyMotto}</p>
-      <p>
-        <label>Since </label>
-        {props.companyInfo.companyEst}
-      </p>
+const Header = ({ companyInfo }) => {
+  const date = new Date(companyInfo.companyEst);
+  const year = date.getFullYear();
+  const MONTHS = [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN",
+    "JUL",
+    "AUG",
+    "SEP",
+    "OCT",
+    "NOV",
+    "DEC"
+  ];
+  const month = MONTHS[date.getMonth()];
+  const day = date.getDate();
+  return (
+    <div className="header-container">
+      <h1>{companyInfo.companyName}</h1>
+      <div className="sub-header-wrapper">
+        <p>{companyInfo.companyMotto}</p>
+        <p>
+          <label>Since </label>
+          <span>
+            {day}/{month}/{year}
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Header;
