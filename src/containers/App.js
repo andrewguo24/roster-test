@@ -42,6 +42,8 @@ class App extends React.Component {
         <MainBody
           employees={employees}
           handleOpenPopup={this.handleOpenPopup}
+          selectedEmployee={selectedEmployee}
+          isShowPopup={isShowPopup}
         />
         {isShowPopup && (
           <EmployeeDetailPopup

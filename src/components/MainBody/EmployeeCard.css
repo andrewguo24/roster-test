@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.highlight {
+  background-color: #f08080;
+}
+
 .avatar {
   flex-grow: 1;
   flex-basis: 0;
@@ -25,7 +29,7 @@
 
 .bio {
   display: -webkit-box;
-  -webkit-line-clamp: 7;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin-top: 10px;
