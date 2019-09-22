@@ -29,8 +29,8 @@ const EmployeeCard = ({
 EmployeeCard.propTypes = {
   employee: PropTypes.object,
   handleOpenPopup: PropTypes.func,
-  selectedEmployee: PropTypes.array,
-  isShowPopup: PropTypes.bool
+  isShowPopup: PropTypes.bool,
+  selectedEmployee: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
 };
 
 export default EmployeeCard;

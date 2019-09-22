@@ -46,10 +46,10 @@ MainBody.propTypes = {
   search: PropTypes.string,
   updateSearch: PropTypes.func,
   handleOpenPopup: PropTypes.func,
-  selectedEmployee: PropTypes.array,
   isShowPopup: PropTypes.bool,
   selectValue: PropTypes.string,
-  handleSortChange: PropTypes.func
+  handleSortChange: PropTypes.func,
+  selectedEmployee: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
 };
 
 export default MainBody;
