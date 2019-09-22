@@ -1,4 +1,4 @@
-import { REQUEST_DATA, DATA_RECEIVED } from "../constants";
+import { REQUEST_DATA, DATA_RECEIVED, REQUEST_DATA_FAILED } from "../constants";
 
 export const requestData = () => {
   console.log("Action requestData");
@@ -6,6 +6,10 @@ export const requestData = () => {
     type: REQUEST_DATA
   };
 };
+
+export const requestDataFailed = () => ({
+  type: REQUEST_DATA_FAILED
+});
 
 export const receiveData = json => {
   console.log("Action json", json);
